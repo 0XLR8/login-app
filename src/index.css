@@ -1,13 +1,144 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1, h2, h3, p{
+    margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input, button{
+    border: none;
 }
+input:focus{
+    outline: none;
+}
+
+
+.nav-bar{
+    background-color: #68107B;
+    padding: 20px 35px 22px;
+}
+.nav-bar h1{
+    font-weight: 600;
+    color: white;
+    font-size: 32px;
+    position: relative;
+    bottom: 5px;
+}
+.nav-item{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.nav-item:hover{
+    color: white;
+    opacity: 1;
+}
+.logout-btn{
+    border-radius: 20px;
+    padding: 5px 25px 9px;
+    background-color: #e611b1;
+}
+
+.box{
+    margin: 0px auto 40px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.log-in{
+    max-width: 500px;
+}
+.log-in h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 30px 10px;
+    border-radius: 30px;
+    width: fit-content;
+}
+.log-in input{
+    display: block;
+    width: 100%;
+    padding: 5px 10px 8px;
+    border-radius: 6px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 5px rgb(209, 209, 209);
+}
+.log-in .submit-btn{
+    display: block;
+    color: white;
+    font-weight: 600;
+    padding: 6px 25px 8px;
+    border-radius: 6px;
+}
+.log-in .switch-btn{
+    background-color: transparent;
+    font-weight: 700;
+}
+.alert-text{
+    font-weight: 700;
+    text-align: center;
+    color:#fb0000;
+}
+.signin h2{
+    background-color: #790f91;
+}
+.signin .submit-btn{
+    background-color: #68107B;
+}
+.signin .switch-btn{
+    color: #68107B
+}
+.signup h2{
+    background-color: #f73b3b;
+}
+.signup .submit-btn{
+    background-color: #d92929;
+}
+.signup .switch-btn{
+    color: #e23333
+}
+
+.home{
+    background-color: #790f91;
+    width: fit-content;
+    padding: 35px 50px 42px;
+    border-radius: 40px;
+    color: white;
+}
+.home p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.users{
+    max-width: 700px;
+}
+.users h2{
+    background-color: #790f91;
+    width: fit-content;
+    padding: 15px 40px 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+}
+.user-list{
+    font-size: 20px;
+    list-style: none;
+    padding: 0px;
+}
+.user-list li{
+    padding: 10px 10px 13px;
+    border-bottom: 1px solid white;
+    background-color: rgb(225, 225, 225);
+}
+.user-list li:first-of-type{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.user-list li:last-of-type{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
